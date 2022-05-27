@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import CardsContainer from './components/CardsContainer';
+import SearchBar from './components/SearchBar';
+import AnimalState from './context/animals/AnimalState';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AnimalState>
+        <SearchBar />
+        <CardsContainer />
+      </AnimalState>
     </div>
   );
 }
