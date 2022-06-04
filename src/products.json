@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "image1",
+            "image": "",
+            "price": 10,
+            "offerPrice": 20
+        },
+        {
+            "id": 2,
+            "name": "image2",
+            "image": "",
+            "price": 10,
+            "offerPrice": 20
+        },
+        {
+            "id": 3,
+            "name": "image3",
+            "image": "",
+            "price": 10,
+            "offerPrice": 20
+        },
+        {
+            "id": 4,
+            "name": "image4",
+            "image": "",
+            "price": 10,
+            "offerPrice": 20
+        },
+        {
+            "id": 5,
+            "name": "image5",
+            "image": "",
+            "price": 10,
+            "offerPrice": 20
+        }
+    ]
+}
